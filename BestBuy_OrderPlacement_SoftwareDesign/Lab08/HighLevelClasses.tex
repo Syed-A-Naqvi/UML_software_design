@@ -1,0 +1,76 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage[top=0.50in, bottom=0.75in, left=1in, right=1.25in]{geometry}
+
+\title{Lab 08}
+\author{Syed Arham Naqvi}
+\date{\today}
+
+\begin{document}
+
+
+\maketitle
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+
+%\begin{center}
+\begin{large}
+\noindent\verb!Customer.java!\\
+\end{large}
+%\end{center}
+\noindent\rule{\textwidth}{0.4pt}
+\lstinputlisting[language=Java]{Customer.java}
+\noindent\rule{\textwidth}{0.4pt}
+There is more code below this
+
+\newpage
+
+\begin{large}
+\noindent\verb!Order.java!\
+\end{large}
+
+\noindent\rule{\textwidth}{0.4pt}
+\lstinputlisting[language=Java]{Order.java}
+\noindent\rule{\textwidth}{0.4pt}
+There is more code below this
+
+\newpage
+
+\begin{large}
+\noindent\verb!Item.java!\
+\end{large}
+
+\noindent\rule{\textwidth}{0.4pt}
+\lstinputlisting[language=Java]{Item.java}
+\noindent\rule{\textwidth}{0.4pt}
+There is no more code.
+
+\end{document}
